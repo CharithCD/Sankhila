@@ -22,7 +22,7 @@ html::-webkit-scrollbar {
 
 /* Navbar Start */
 #navbar {
-    background: transparent;
+    background-color: #fad2d2 !important;
     padding: 0px 9% 0px;
 }
 
@@ -34,7 +34,7 @@ html::-webkit-scrollbar {
 
 .nav-item .nav-link {
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 550;
     transition: 0.5s;
 }
@@ -80,6 +80,7 @@ html::-webkit-scrollbar {
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
+    background-color: #fad2d2;
 }
 
 .home .img {
@@ -128,7 +129,7 @@ html::-webkit-scrollbar {
 /* Top Section Start */
 .top-section {
     padding: 10px 11% 100px;
-    background-color: #F97B79;
+    margin-top: 80px;
 }
 
 .top-section h5 {
@@ -509,7 +510,7 @@ label.error {
 }
 
 .custom-shape-divider-top-1707320419 .shape-fill {
-    fill: #F97B79;
+    fill: #fad2d2;
 }
 
 
