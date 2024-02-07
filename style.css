@@ -72,7 +72,7 @@ html::-webkit-scrollbar {
 /* Home Section Start */
 .home {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     padding: 5px 11% 80px;
     display: flex;
     align-items: center;
@@ -83,22 +83,22 @@ html::-webkit-scrollbar {
 }
 
 .home .img {
-    flex: 1 1 300px;
+    flex: 2 1 450px;
 }
 
 .home .img img {
-    width: 100%;
-    margin-left: 60px;
+    width: 80%;
+    margin-left: 100px;
 }
 
 .home-content {
-    flex: 1 1 400px;
+    flex: 2 1 500px;
     margin-top: 30px;
 }
 
 .home-content h3 {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 55px;
+    font-weight: 600;
 }
 
 .home-content h3 span {
