@@ -72,7 +72,7 @@ html::-webkit-scrollbar {
 /* Home Section Start */
 .home {
     width: 100%;
-    height: 80vh;
+    /* height: 100vh; */
     padding: 5px 11% 80px;
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@ html::-webkit-scrollbar {
 }
 
 .home .img {
-    flex: 2 1 450px;
+    flex: 1 1 450px;
 }
 
 .home .img img {
@@ -92,7 +92,7 @@ html::-webkit-scrollbar {
 }
 
 .home-content {
-    flex: 2 1 500px;
+    flex: 1 1 500px;
     margin-top: 30px;
 }
 
@@ -115,7 +115,7 @@ html::-webkit-scrollbar {
 
 @media screen and (max-width:873px) {
     .home .img img {
-        margin-left: 0px;
+        margin-left: 50px;
     }
 }
 
@@ -128,6 +128,7 @@ html::-webkit-scrollbar {
 /* Top Section Start */
 .top-section {
     padding: 10px 11% 100px;
+    background-color: #F97B79;
 }
 
 .top-section h5 {
@@ -365,28 +366,28 @@ html::-webkit-scrollbar {
 label.error {
     font-size: 12px;
     color: red;
-  }
-  
-  #message {
+}
+
+#message {
     resize: vertical;
-  }
-  
-  #form-message-warning,
-  #form-message-success {
+}
+
+#form-message-warning,
+#form-message-success {
     display: none;
-  }
-  
-  #form-message-warning {
+}
+
+#form-message-warning {
     color: #B90B0B;
-  }
-  
-  #form-message-success {
+}
+
+#form-message-success {
     color: #55A44E;
     font-size: 18px;
     font-weight: bold;
-  }
-  
-  .submitting {
+}
+
+.submitting {
     float: left;
     width: 100%;
     padding: 10px 0;
@@ -394,7 +395,8 @@ label.error {
     font-weight: bold;
     font-size: 12px;
     color: #000;
-  }
+}
+
 /* Contact Section End */
 
 
@@ -487,3 +489,29 @@ label.error {
 }
 
 /* New Contact us Page */
+
+
+/* First Wave Divider */
+.custom-shape-divider-top-1707320419 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1707320419 svg {
+    position: relative;
+    display: block;
+    width: calc(114% + 1.3px);
+    height: 136px;
+}
+
+.custom-shape-divider-top-1707320419 .shape-fill {
+    fill: #F97B79;
+}
+
+
+
+/* First Wave Divider */
