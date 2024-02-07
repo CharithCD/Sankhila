@@ -56,7 +56,7 @@
   <!-- Navbar End -->
 
   <!-- Contact Section Start -->
-  <section class="contact" id="contact">
+  <!-- <section class="contact" id="contact">
     <div class="heading">
       Contact <span>us</span>
     </div>
@@ -92,12 +92,122 @@
       </div>
     </div>
 
-  </section>
+  </section> -->
   <!-- Contact Section End -->
 
+  <!-- New Contact Starts Here -->
+  <div class="contact">
+
+    <div class="container">
+      <div class="row align-items-stretch no-gutters contact-wrap">
+
+        <!-- icons -->
+        <div class="row mb-5">
+          <div class="col-md-3">
+            <div class="dbox w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="fa fa-map-marker"></span>
+              </div>
+              <div class="text">
+                <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="dbox w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="fa fa-phone"></span>
+              </div>
+              <div class="text">
+                <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="dbox w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="fa fa-paper-plane"></span>
+              </div>
+              <div class="text">
+                <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="dbox w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="fa fa-globe"></span>
+              </div>
+              <div class="text">
+                <p><span>Website</span> <a href="#">yoursite.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- icons -->
+
+        <div class="col-md-12">
+          <div class="form h-100">
+            <h3>Send us a message</h3>
+            <form class="mb-5" method="post" id="contactForm" name="contactForm">
+              <div class="row">
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">Name *</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                </div>
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">Email *</label>
+                  <input type="text" class="form-control" name="email" id="email" placeholder="Your email">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">Phone</label>
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone #">
+                </div>
+                <div class="col-md-6 form-group mb-5">
+                  <label for="" class="col-form-label">Company</label>
+                  <input type="text" class="form-control" name="company" id="company" placeholder="Company  name">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 form-group mb-5">
+                  <label for="message" class="col-form-label">Message *</label>
+                  <textarea class="form-control" name="message" id="message" cols="30" rows="4"
+                    placeholder="Write your message"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                </div>
+              </div>
+            </form>
+
+            <div id="form-message-warning mt-4"></div>
+            <div id="form-message-success">
+              Your message was sent, thank you!
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- New Contact Starts Here -->
 
   <script src="./app.js"></script>
-
+  <!-- <script src="./contactus.js"></script> -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
 
   <!-- BOOTSTRAP CDN LINK -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

@@ -326,6 +326,75 @@ html::-webkit-scrollbar {
     cursor: pointer;
 }
 
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    background: none;
+}
+
+.form-control:active,
+.form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+}
+
+.col-form-label {
+    color: #000;
+    font-size: 13px;
+}
+
+.btn,
+.form-control,
+.custom-select {
+    height: 45px;
+}
+
+.custom-select:active,
+.custom-select:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+}
+
+label.error {
+    font-size: 12px;
+    color: red;
+  }
+  
+  #message {
+    resize: vertical;
+  }
+  
+  #form-message-warning,
+  #form-message-success {
+    display: none;
+  }
+  
+  #form-message-warning {
+    color: #B90B0B;
+  }
+  
+  #form-message-success {
+    color: #55A44E;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+  }
 /* Contact Section End */
 
 
@@ -371,3 +440,50 @@ html::-webkit-scrollbar {
 }
 
 /* Footer End */
+
+
+/* New Contact us Page */
+.dbox {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 767.98px) {
+    .dbox {
+        margin-bottom: 25px !important;
+        padding: 0 20px;
+    }
+}
+
+.dbox p {
+    margin-bottom: 0;
+}
+
+.dbox p span {
+    font-weight: 500;
+    color: #000;
+}
+
+.dbox p a {
+    color: #ea0d1c;
+}
+
+.dbox .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ea0d1c;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.dbox .icon span {
+    font-size: 20px;
+    color: #fff;
+}
+
+.dbox .text {
+    width: 100%;
+}
+
+/* New Contact us Page */
