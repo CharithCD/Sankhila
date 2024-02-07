@@ -314,6 +314,7 @@ html::-webkit-scrollbar {
     background: #ea0d1c;
     border-radius: 10px;
     color: white;
+    padding: auto;
 }
 
 .contact h3 {
