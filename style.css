@@ -141,9 +141,10 @@
         border: none;
         background: transparent;
     }
+
     .history .card img {
-        width: auto;
-        height: 480px;
+        width: 311px;
+        height: 470px;
     }
 }
 
