@@ -141,6 +141,10 @@
         border: none;
         background: transparent;
     }
+    .history .card img {
+        width: auto;
+        height: 480px;
+    }
 }
 
 
@@ -206,6 +210,13 @@
 .top-section .card-body h1 {
     font-size: 25px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 873px) {
+    .top-section .card-body img {
+        width: 300px;
+        margin: 0 0 0 -60px;;
+    }
 }
 
 /* Top Section End */
