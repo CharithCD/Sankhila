@@ -1,29 +1,25 @@
+:root {
+    --green: #00853E;
+    --red: #ED081D;
+    --background-brown: #FFF6E5;
+    --brown: #675b47;
+    --light-brown: #7d7058;
+    --white: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
-    scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
-}
-
-html::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-html::-webkit-scrollbar-thumb {
-    background: #e53937;
-    border-radius: 10px;
-}
-
-html::-webkit-scrollbar {
-    width: 10px;
+    font-family: 'Kaisei Opti', serif;
 }
 
 /* Navbar Start */
 #navbar {
-    background-color: #fad2d2 !important;
+    background-color: transparent !important;
     padding: 0px 9% 0px;
+    color: white;
 }
 
 #logo img {
@@ -33,64 +29,72 @@ html::-webkit-scrollbar {
 }
 
 .nav-item .nav-link {
-    color: black;
-    font-size: 20px;
+    color: white !important;
+    font-size: 25px;
     font-weight: 550;
     transition: 0.5s;
 }
 
-.nav-item .nav-link:hover {
-    color: #ea0d1c;
+/* .nav-item .nav-link:hover {
+    color: white;
 }
 
 .nav-link.active {
-    color: #ea0d1c !important;
-}
-
-#nvabar input {
-    border-radius: 50px;
-}
+    color:white !important;
+} */
 
 #btn {
-    border-radius: 5px;
     padding: 5px;
-    border: 1px solid #ea0d1c;
-    background: transparent;
+    color: var(--white);
+    border: 1px solid #ED081D;
+    background-color: var(--red);
     transition: 0.5s;
 }
 
 #btn:hover {
-    background: #ea0d1c;
-    color: white;
+    background: var(--white);
+    color: var(--red);
 }
 
 /* Navbar End */
 
 
+#example1 {
+    background: url(https://media.istockphoto.com/id/1328820760/photo/aerial-view-of-green-summer-forest-with-spruce-and-pine-trees.jpg?s=2048x2048&w=is&k=20&c=SGV5jiNQ5ht_J0y72rLuZQVoY3Ti9zeqPHsargptm-Y=);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+#example1 h1 {
+    margin-top: 220px;
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+}
 
 /* Home Section Start */
-.home {
-    width: 100%;
-    /* height: 100vh; */
-    padding: 5px 11% 80px;
+/* .home {
+    /* width: 100%; */
+/* height: 100vh; */
+/* padding: 5px 11% 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
-    background-color: #fad2d2;
-}
+    background-color: white; */
+/* } */
 
-.home .img {
+/*.home .img {
     flex: 1 1 450px;
-}
+} */
 
-.home .img img {
+/* .home .img img {
     width: 80%;
     margin-left: 100px;
-}
+} */
 
 .home-content {
     flex: 1 1 500px;
@@ -103,13 +107,13 @@ html::-webkit-scrollbar {
 }
 
 .home-content h3 span {
-    color: #ea0d1c;
+    color: #00853E;
 }
 
 #home-btn {
     padding: 10px;
     text-decoration: none;
-    background: #ea0d1c;
+    background: #00853E;
     color: white;
     border-radius: 5px;
 }
@@ -122,25 +126,87 @@ html::-webkit-scrollbar {
 
 /* Home Section End */
 
+/* History Section Start */
+.history {
+    padding: 10px 11% 100px;
+    background-color: var(--background-brown);
+}
 
+.history .card {
+    align-items: center;
+    border: none;
+    text-align: left;
+    background: transparent;
+}
 
+.history .card h3 {
+    font-size: 30px;
+    color: var(--green);
+}
+
+.history .card p {
+    font-size: 20px;
+    color: var(--brown);
+}
+
+#history-btn {
+    display: flex;
+    justify-items: flex-start;
+    padding: 5px;
+    color: var(--white);
+    border: 1px solid #00853E;
+    background-color: var(--green);
+    transition: 0.5s;
+
+}
+
+#history-btn:hover {
+    background: var(--white);
+    color: var(--green);
+}
+
+.history .card img {
+    width: 340px;
+    height: 480px;
+}
+
+/* History Section End */
 
 
 /* Top Section Start */
+.line {
+    background: rgb(25, 216, 114);
+    background: linear-gradient(90deg, rgba(25, 216, 114, 1) 0%, rgba(216, 27, 45, 1) 100%);
+}
+
 .top-section {
     padding: 10px 11% 100px;
-    margin-top: 80px;
 }
 
 .top-section h5 {
-    color: #ea0d1c;
+    color: var(--green);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.top-section .card {
+    /* background-color: #FFF6E5; */
+    background-color: var(--background-brown);
+    padding: 40px;
+}
+
+.top-section h2 {
+    color: var(--brown);
     text-align: center;
 }
 
-.top-section h3 {
-    color: black;
+.top-section p {
+    margin-top: 10px;
+    color: var(--light-brown);
     text-align: center;
-    font-weight: 600;
+    font-size: 16px;
+
 }
 
 .top-section .row {
@@ -150,10 +216,11 @@ html::-webkit-scrollbar {
 
 .top-section .row .card {
     border: none;
+    width: 300px;
 }
 
-.top-section .row .card img {
-    width: 200px;
+.top-section .card-body img {
+    width: 300px;
     margin: auto;
 }
 
@@ -178,7 +245,8 @@ html::-webkit-scrollbar {
 
 .menu h3 {
     text-align: center;
-    color: #ea0d1c;
+    color: #00853E;
+    font-size: 60px;
 }
 
 .menu h2 {
@@ -188,7 +256,7 @@ html::-webkit-scrollbar {
 }
 
 .menu h2 i {
-    color: #ea0d1c;
+    color: #00853E;
 }
 
 .menu h6 {
@@ -207,7 +275,7 @@ html::-webkit-scrollbar {
 
 .menu p i {
     float: right;
-    color: #ea0d1c;
+    color: #00853E;
     cursor: pointer;
 }
 
@@ -229,7 +297,7 @@ html::-webkit-scrollbar {
 }
 
 .heading span {
-    color: #ea0d1c;
+    color: #00853E;
 }
 
 .order textarea {
@@ -240,15 +308,15 @@ html::-webkit-scrollbar {
     padding: 6px;
     margin-top: 30px;
     background: transparent;
-    border: 2px solid #ea0d1c;
+    border: 2px solid #00853E;
     border-radius: 5px;
-    color: #ea0d1c;
+    color: #00853E;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .order-btn:hover {
-    background: #ea0d1c;
+    background: #00853E;
     color: white;
     border: 2px solid white;
 }
@@ -265,12 +333,12 @@ html::-webkit-scrollbar {
 }
 
 .review .card {
-    border: 1px solid #ea0d1c;
+    border: 1px solid #00853E;
 }
 
 .review h3 {
     font-size: 16px;
-    color: #ea0d1c;
+    color: #00853E;
     font-weight: 550;
 }
 
@@ -313,7 +381,7 @@ html::-webkit-scrollbar {
 }
 
 .contact .col-md-5 {
-    background: #ea0d1c;
+    background: #00853E;
     border-radius: 10px;
     color: white;
     padding: auto;
@@ -366,7 +434,7 @@ html::-webkit-scrollbar {
 
 label.error {
     font-size: 12px;
-    color: red;
+    color: #00853E;
 }
 
 #message {
@@ -510,7 +578,7 @@ label.error {
 }
 
 .custom-shape-divider-top-1707320419 .shape-fill {
-    fill: #fad2d2;
+    fill: white;
 }
 
 
