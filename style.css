@@ -140,6 +140,7 @@
         align-items: center;
         border: none;
         background: transparent;
+        padding: 0;
     }
 
     .history .card img {
@@ -170,6 +171,12 @@
     margin-top: 60px;
     font-size: 30px;
 }
+
+/* .top-section h5 span{
+    color: var(--red);
+    font-weight: 600;
+    font-size: 30px;
+} */
 
 .top-section .card {
     /* background-color: #FFF6E5; */
